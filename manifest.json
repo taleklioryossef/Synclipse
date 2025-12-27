@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Synclipse",
+  "version": "1.0",
+  "description": "Smart LinkedIn page refresher with customizable intervals",
+  "permissions": ["tabs", "storage", "alarms"],
+  "host_permissions": ["*://*.linkedin.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Synclipse"
+  
+  }
+}
